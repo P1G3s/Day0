@@ -1,0 +1,13 @@
+_lightOBJ = "Land_Battery_F" createVehicle [0,0,0];
+_lightOBJ attachTo [player,[0,5,10]];
+_lightOBJ hideObjectGlobal true;
+_li_tracer = "#lightpoint" createVehicleLocal (getPos _lightOBJ);
+_li_tracer setLightAmbient[1, 0, 0];
+_li_tracer setLightColor[1, 0, 0];
+_li_tracer lightAttachObject [_lightOBJ, [0,0,0]];
+_li_tracer setLightDayLight true;	
+_li_tracer setLightUseFlare true;
+_li_tracer setLightFlareSize 3;
+_li_tracer setLightFlareMaxDistance 2000;	
+_li_tracer setLightIntensity 5000;
+_li_tracer setLightAttenuation [/*start*/ 10, /*constant*/0, /*linear*/ 100, /*quadratic*/ 0, /*hardlimitstart*/1000,1002];  

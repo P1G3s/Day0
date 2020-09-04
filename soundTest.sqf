@@ -1,0 +1,10 @@
+/*{[west,"Base"] sideRadio _x;sleep 8;}foreach ["mp_groundsupport_01_medevacrequested_BHQ_0"
+"mp_groundsupport_01_medevacrequested_OHQ_0"
+"mp_groundsupport_01_medevacrequested_IHQ_0"
+"mp_groundsupport_01_medevacrequested_BHQ_1"
+"mp_groundsupport_01_medevacrequested_OHQ_1"
+"mp_groundsupport_01_medevacrequested_IHQ_1"
+"mp_groundsupport_01_medevacrequested_BHQ_2"
+"mp_groundsupport_01_medevacrequested_OHQ_2"
+"mp_groundsupport_01_medevacrequested_IHQ_2"];*/
+[west,"HQ"] sideRadio "mp_groundsupport_01_medevacrequested_BHQ_0"

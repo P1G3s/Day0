@@ -1,0 +1,43 @@
+class CfgMusic
+{
+	tracks[]={};
+
+	class DAY1
+	{
+		name = "";
+		sound[] = {"\Music\DAY1.ogg", 6.5, 1.0};
+	};
+	class warning
+	{
+		name = "";
+		sound[] = {"\Music\warning.ogg", 3.0, 1.0};
+	};
+	class outro
+	{
+		name = "";
+		sound[] = {"\Music\outro.wav",2.0,1.0};
+	};
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	class hyperSpace
+	{
+		name = "";
+		sound[] = {"\Sounds\hyperSpace.wav", 5, 1, 3000};
+		titles[] = {0,""};
+	};
+	class electronicField
+	{
+		name = "";
+		sound[] = {"\Sounds\electronicField.wav", 2, 1, 2000};
+		titles[] = {0,""};
+	};
+	class Siren
+	{
+		name = "";
+		sound[] = {"\Sounds\Siren.wav",2.0,1.0};
+		titles[] = {0,""};
+	};
+};
